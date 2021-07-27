@@ -19,7 +19,8 @@ var height = svgHeight - margin.top - margin.bottom;
 
 // Select body, append SVG area to it, and set the dimensions
 // ==============================
-var svg = d3.select("#chart2")
+var svg = d3.select("#chart2").classed('chart2', true)
+
   .append("svg")
   .attr("height", svgHeight)
   .attr("width", svgWidth)

@@ -3,7 +3,7 @@
 // Define SVG area dimensions
 // ==============================
 var svgWidth = 960;
-var svgHeight = 650;
+var svgHeight = 550;
 
 var margin = {
   top:60,
@@ -19,7 +19,8 @@ var height = svgHeight - margin.top - margin.bottom;
 
 // Select body, append SVG area to it, and set the dimensions
 // ==============================
-var svg = d3.select("#chart1")
+var svg = d3.select("#chart1").classed('chart1', true)
+
   .append("svg")
   .attr("height", svgHeight)
   .attr("width", svgWidth)

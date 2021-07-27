@@ -1,0 +1,68 @@
+body{
+	background-image:url(/Users/mehulparekh/Documents/Repos/us-wildfire-dashboard/resources/malachi-brooks--HVh7BRp3ls-unsplash--MODIFIED.png);
+    background-repeat:no-repeat;
+    background-size: 100%;
+    padding: 5px;
+  	margin: 5px;
+  	font-family: Georgia, "Times New Roman", Times, serif;
+  	font-size: 18px;
+  	line-height: 150%;
+  	color: #333;
+  	/*background: #FFFFFF;*/
+  	text-align: left;
+}
+
+header {
+  background: #FFFFFF;
+}
+
+h1 {
+  padding: 10px 10px;
+  margin: 5px;
+  margin-bottom: 10px;
+  font-size: 28px;
+  color: #d48869;
+  text-align: left;
+}
+
+h2 {
+  font-size: 24px;
+}
+
+a {
+  color: #d21034;
+}
+
+/* Selecting elements by class */
+.container {
+  width: 1024px;
+  margin: 0 auto;
+}
+
+/* Selecting elements by ID */
+#main-bio,
+#contact-info,
+#bio-image {
+  float: left;
+}
+
+#figure {
+  position: static;
+}
+
+
+/*footer{
+
+	margin-top: 20px;
+	padding-top: 20px;
+}
+.bg__card__navbar{
+	background-color: #000000;
+}
+.bg__card__footer{
+	background-color: #000000 !important;
+}
+#add__new__list{
+    top: -38px;
+    right: 0px;
+}*/
